@@ -2,7 +2,7 @@ package com.uv.protocol;
 /*
  * @author uv
  * @date 2018/10/13 18:10
- * 传输请求对象
+ * 传输响应对象
  */
 
 public class RpcResponse {

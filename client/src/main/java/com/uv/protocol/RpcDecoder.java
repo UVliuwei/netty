@@ -2,7 +2,7 @@ package com.uv.protocol;
 /*
  * @author uv
  * @date 2018/10/13 18:09
- * 对象传输解码器
+ * 解码器（将接收的数据转换成实体类）
  */
 
 import com.alibaba.fastjson.JSON;
