@@ -5,7 +5,11 @@ package com.uv.protocol;
  * 传输请求对象
  */
 
-public class RpcRequest {
+import java.io.Serializable;
+
+public class RpcRequest implements Serializable{
+
+    private static final long serialVersionUID = -2577707401136472809L;
 
     private String id;
     private Object data;
